@@ -5,7 +5,7 @@ import random
 
 # Constants
 KAFKA_TOPIC = "vitals-data"  # Kafka topic to send messages to
-KAFKA_BROKER = "my-cluster-kafka-bootstrap.hl7-listener.svc:9092"  # Replace with your Kafka broker URL and port
+KAFKA_BROKER = "my-cluster-kafka-bootstrap.hl7-listener.svc:9092"  # Kafka broker URL and port
 
 # Create a Kafka producer
 producer = KafkaProducer(
